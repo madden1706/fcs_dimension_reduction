@@ -1,0 +1,21 @@
+name: fcs_dimension_reduction
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - numpy
+  - pandas
+  - altair
+  - notebook
+  - vega
+  - bokeh
+  - ipykernel
+  - black
+  - isort
+ # - flake8 
+  - pytest
+  - pytest-cov
+  - pre_commit
+  - jupyter_contrib_nbextensions
+    
